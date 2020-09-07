@@ -1,0 +1,91 @@
+@media screen and (min-width: 360px){
+    .score, .count, .restart {
+        padding: 10px;
+    }
+    .restart {
+        margin-left: 20%;
+    }
+    .deck {
+        width: 95%;
+        min-height: 342px;
+        padding: 10px;
+    }
+    .card {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+        box-shadow: 8px 8px 6px -3px rgba(0, 0, 0, 0.5);
+    }
+    .countdown {
+        transform: translate(-50%, -45%);
+    }
+}
+@media screen and (min-width: 375px){
+    .card {
+        margin: 12px;
+    }
+    .countdown {
+        transform: translate(-50%, -43%);
+    }
+}
+@media screen and (min-width: 411px){
+    .stars {
+        margin-left: 10%;
+    }
+    .restart {
+        margin-left: 20%;
+    }
+    .deck {
+        min-height: 390px;
+        padding: 15px;
+    }
+    .card {
+        width: 66px;
+        height: 70px;
+        box-shadow: 12px 12px 8px -5px rgba(0, 0, 0, 0.5);
+    } 
+    .countdown {
+        transform: translate(-50%, -36%);
+    }
+}
+@media screen and (min-width: 768px){
+    .score,.deck {
+        width: 576px;
+    }
+    .deck {
+        min-height: 580px;
+        padding: 20px;
+        box-shadow: 15px 15px 14px -2px rgba(0, 0, 0, 0.5);
+    }
+    .card {
+        width: 100px;
+        height: 100px;
+        margin: 17px;
+        box-shadow: 15px 15px 14px -3px rgba(0, 0, 0, 0.5);
+    }
+    .endGame {
+        width: 60%;
+    }
+}
+@media screen and (height: 1024px){
+    .countdown {
+        transform: translate(-50%, -78%);
+    }
+    .title_endGame, .text_endGame {
+        top: 10%;
+    }
+    .start_again {
+        top: 160px;
+    }
+}
+@media screen and (height: 1366px){
+    .countdown {
+        transform: translate(-50%, -125%);
+    }
+    .title_endGame, .text_endGame {
+        top: 5%;
+    }
+    .start_again {
+        top: 140px;
+    }
+}
